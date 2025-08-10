@@ -1,0 +1,36 @@
+//drawer nav
+.bg-mint.sidebar {
+  background: #a1ffc7;
+  color: #222; /* Optional: for better text contrast */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+  padding-bottom: 0;
+}
+
+/* Move the sidebar image down */
+.sidebar-actions {
+  margin-top: auto; /* Pushes actions (like image) to the bottom */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Optional: style the preview image */
+.form-row img {
+  margin-top: 16px;
+  border-radius: 12px;
+  width: 120px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.chip-image {
+  display: block;
+  margin: 32px auto 16px auto;
+  border-radius: 12px;
+  width: 320px;
+  height: 120px;
+  object-fit: cover;
+}
